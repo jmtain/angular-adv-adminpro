@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { UsuarioService } from '../../services/usuario.service';
-import { Subscription } from 'rxjs';
 import { Usuario } from 'src/models/usuario.model';
 import { FileUploadService } from '../../services/file-upload.service';
 import Swal from 'sweetalert2';
