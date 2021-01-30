@@ -74,7 +74,7 @@ public imgSubs: Subscription;
     }
 
     this.busquedasService.buscar('usuarios',termino).subscribe(
-      resp => {
+      (resp: Usuario[] )=> {
         this.usuarios = resp;
       }
     );
